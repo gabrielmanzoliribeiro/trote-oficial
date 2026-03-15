@@ -9,7 +9,7 @@ body{
 }
 .menu-principal{
     background-color: #1e3c72;
-    padding: 30px 0;
+    padding: 20px 0;
     position: sticky; 
     top: 0; 
     z-index: 1000;
@@ -31,10 +31,6 @@ body{
     font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase;
-    
-
-
-    
     
 }
 .lista{
@@ -67,6 +63,7 @@ body{
     color: white;
     padding: 60px 20px;
     text-align: center;
+    
 }
 .cabeclho-container h1{
     font-size: 2rem;
@@ -81,6 +78,7 @@ body{
 }
 img{
   width: 15rem;
+  border-radius: 12px;
 } 
 .principal{
  
@@ -110,6 +108,22 @@ img{
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   
+
+}
+.container-secao31{
+    background-color: #86a6e090;
+    border-radius: 12px;
+    padding: 10px;
+    border-left:  4px solid #1e3c72 ;
+    margin: 10px;
+}
+.container-secao32{
+    background-color: #86a6e090;
+    border-radius: 12px;
+    padding: 10px;
+    border-left:  4px solid #1e3c72 ;
+    margin: 10px;
 }
 .secao4{
     background-color: white;
@@ -118,3 +132,28 @@ img{
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+.container-secao41{
+    background-color: rgba(64, 148, 64, 0.351);
+    border-radius: 4px;
+    color: green;
+    padding: 0 10px;
+    margin: 5px;
+
+}
+.container-secao42{
+    background-color: rgba(64, 148, 64, 0.351);
+    border-radius: 4px;
+    color: green;
+    padding: 0 10px;
+    margin: 5px;
+
+}
+.container-secao43{
+    background-color: rgba(64, 148, 64, 0.351);
+    border-radius: 4px;
+    color: green;
+    padding: 0 10px;
+    margin: 5px;
+
+}
+
