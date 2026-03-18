@@ -101,6 +101,7 @@ img{
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   
 }
 .secao3{
     background-color: white;
@@ -108,6 +109,10 @@ img{
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   justify-content: space-between;
+   display: flex;
+   
+   
    
 
 }
@@ -117,6 +122,7 @@ img{
     padding: 10px;
     border-left:  4px solid #1e3c72 ;
     margin: 10px;
+    flex: 1;
 }
 .container-secao32{
     background-color: #86a6e090;
@@ -124,6 +130,7 @@ img{
     padding: 10px;
     border-left:  4px solid #1e3c72 ;
     margin: 10px;
+    flex: 1;
 }
 .secao4{
     background-color: white;
@@ -131,29 +138,38 @@ img{
    padding: 25px;
    border-radius: 12px;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   
+
 }
 .container-secao41{
     background-color: rgba(64, 148, 64, 0.351);
     border-radius: 4px;
     color: green;
-    padding: 0 10px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    flex: 1;
 
 }
 .container-secao42{
     background-color: rgba(64, 148, 64, 0.351);
     border-radius: 4px;
     color: green;
-    padding: 0 10px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    flex: 1;
+    
 
 }
 .container-secao43{
     background-color: rgba(64, 148, 64, 0.351);
     border-radius: 4px;
     color: green;
-    padding: 0 10px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    flex: 1;
 
+}
+.secao4 h3{
+    margin: 0;
 }
 
