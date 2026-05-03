@@ -263,6 +263,28 @@ th {
 
 
 }
+.evento::before { 
+    content: ''; /* sem texto */
+    width: 12px; /* largura da bolinha */
+    height: 12px; /* altura da bolinha */
+    background: #ff4b2b; /* fundo da bolinha */
+    border-radius: 50%; /* cria a bolinha */
+    position: absolute; /* cria a bolinha na posição atual */
+    left: -28px; /* vai para a esquerda */
+    top: 5px; /* abaixa 5px */ 
+}
+
+.grid-locais {
+    display: flex;
+    gap: 20px;
+}
+.local {
+    flex: 1; /* ocupe toda a área */
+    background: #f8f9fa;
+    padding :15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
 .section-formato{
     background: rgba(255, 187, 0, 0.1);
     border-left: #ffe100 4px solid;
@@ -276,7 +298,7 @@ th {
     display: flex;
     flex-direction: column;
 }
-input {
+input, select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
